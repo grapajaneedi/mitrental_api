@@ -9,6 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "engines": {
+    "node": "12.9.0"
+  },
   "devDependencies": {},
   "dependencies": {
     "strapi": "3.0.0-beta.18.1",
