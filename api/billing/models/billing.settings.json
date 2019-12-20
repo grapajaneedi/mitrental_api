@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "billing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "trn_no": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "profile": {
+      "model": "profile"
+    },
+    "application": {
+      "model": "application"
+    }
+  },
+  "connection": "default",
+  "collectionName": "billings"
+}

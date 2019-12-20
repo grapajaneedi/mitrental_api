@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "items",
+  "info": {
+    "name": "Item"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "fee": {
+      "type": "integer"
+    },
+    "itemtype": {
+      "model": "itemtype"
+    },
+    "status": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

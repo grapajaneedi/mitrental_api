@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "applications",
+  "info": {
+    "name": "application"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "customer": {
+      "model": "profile"
+    },
+    "qty": {
+      "type": "integer",
+      "max": 20,
+      "min": 1
+    },
+    "item": {
+      "model": "item"
+    },
+    "itemtype": {
+      "model": "itemtype"
+    },
+    "status": {
+      "type": "integer"
+    }
+  }
+}
